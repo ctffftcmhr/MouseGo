@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MouseGo</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="fontawesome-free-5.15.2-web/css/all.css">
+  <script src="js/jquery.js"></script>
+  <style>
+      .a{
+        background-color: darkblue;
+      padding: 1%;
+      margin-bottom:1%;
+      margin-left: 1%;
+      width: 60%;
+      float: left;
+      color: rgb(172, 152, 152);
+      }
+      .b{
+        background-color: rgb(12, 112, 25);
+      padding: 1%;
+      margin-bottom:1%;
+      margin-left: 1%;
+      width: 60%;
+      float: right;
+      color: rgb(172, 152, 152);
+      }
+      .c{
+        background-color: rgb(0, 0, 0);
+      padding: 0.5%;
+      margin-bottom:1%;
+      margin-left: 1%;
+      width: 70%;
+      float: left;
+      color: rgb(172, 152, 152);
+      }
+      .d{
+        background-color: rgb(154, 184, 21);
+      padding: 0.5%;
+      margin-bottom:1%;
+      margin-left: 1%;
+      width: 70%;
+      float: right;
+      color: rgb(172, 152, 152);
+      }
+      .e{
+        background-color: rgb(154, 184, 21);
+      padding: 0.4%;
+      margin-bottom:1%;
+      margin-left: 1%;
+      width: 80%;
+      float: right;
+      color: rgb(172, 152, 152);
+      }
+      .f{
+        background-color: rgb(154, 184, 21);
+      padding: 0.4%;
+      margin-bottom:1%;
+      margin-left: 1%;
+      width: 80%;
+      float: right;
+      color: rgb(172, 152, 152);
+      }
+      ::-webkit-scrollbar{
+          display:block;
+      }
+  </style>
+</head>
+<body>
+    <div style="height: 600px;">
+    <div class="card a" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-1</p>
+        </div>
+    </div>
+    <div class="card b" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-2</p>
+        </div>
+    </div>
+    <div class="card a" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-3</p>
+        </div>
+    </div>
+    <div class="card b" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-4</p>
+        </div>
+    </div>
+    <div class="card a" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-5</p>
+        </div>
+    </div>
+    <div class="card b" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-6</p>
+        </div>
+    </div>
+    <div class="card a" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-7</p>
+        </div>
+    </div>
+    <div class="card b" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-8</p>
+        </div>
+    </div>
+    <div class="card a" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-9</p>
+        </div>
+    </div>
+    <div class="card b" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-10</p>
+        </div>
+    </div>
+    <div class="card a" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-11</p>
+        </div>
+    </div>
+    <div class="card b" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-12</p>
+        </div>
+    </div>
+    <div class="card a" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-13</p>
+        </div>
+    </div>
+    <div class="card b" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-14</p>
+        </div>
+    </div>
+    <div class="card a" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-15</p>
+        </div>
+    </div>
+    <div class="card b" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-16</p>
+        </div>
+    </div>
+    <div class="card a" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-17</p>
+        </div>
+    </div>
+    <div class="card b" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-18</p>
+        </div>
+    </div>
+    <div class="card a" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-19</p>
+        </div>
+    </div>
+    <div class="card c" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-20</p>
+        </div>
+    </div>
+    <div class="card d" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-21</p>
+        </div>
+    </div>
+    
+    <div class="card c" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-22</p>
+        </div>
+    </div>
+    <div class="card d" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-23</p>
+        </div>
+    </div>
+    <div class="card c" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-24</p>
+        </div>
+    </div>
+    <div class="card d" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-25</p>
+        </div>
+    </div>
+    <div class="card c" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-26</p>
+        </div>
+    </div>
+    <div class="card d" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-27</p>
+        </div>
+    </div>
+    <div class="card c" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-28</p>
+        </div>
+    </div>
+    <div class="card d" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-29</p>
+        </div>
+    </div>
+    <div class="card c" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-30</p>
+        </div>
+    </div>
+    <div class="card e" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-29</p>
+        </div>
+    </div>
+    <div class="card f" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-29</p>
+        </div>
+    </div>
+    <div class="card e" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-29</p>
+        </div>
+    </div>
+    <div class="card f" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-29</p>
+        </div>
+    </div>
+    <div class="card e" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-29</p>
+        </div>
+    </div>
+    <div class="card f" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-29</p>
+        </div>
+    </div>
+    <div class="card e" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-29</p>
+        </div>
+    </div>
+    <div class="card f" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-29</p>
+        </div>
+    </div>
+    <div class="card e" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-29</p>
+        </div>
+    </div>
+    <div class="card f" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-29</p>
+        </div>
+    </div>
+    <div class="card e" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-29</p>
+        </div>
+    </div>
+    <div class="card f" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-29</p>
+        </div>
+    </div>
+    <div class="card e" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-29</p>
+        </div>
+    </div>
+    <div class="card f" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-29</p>
+        </div>
+    </div>
+    <div class="card e" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-29</p>
+        </div>
+    </div>
+    <div class="card f" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-29</p>
+        </div>
+    </div>
+    <div class="card e" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-29</p>
+        </div>
+    </div>
+    <div class="card f" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-29</p>
+        </div>
+    </div>
+    <div class="card e" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-29</p>
+        </div>
+    </div>
+    <div class="card f" >
+        <div class="card-body">
+            <h5 class="card-title">Your</h5>
+            <p class="card-text">Score-29</p>
+        </div>
+    </div>
+    </div>
+    
+    
+<script>
+    $(document).ready(function () {
+        $(".a").mouseover(function(){
+      $('body').hide();
+    });
+    $(".b").mouseover(function(){
+      $('body').hide();
+    });
+    $(".c").mouseover(function(){
+      $('body').hide();
+    });
+    $(".d").mouseover(function(){
+      $('body').hide();
+    });
+    $(".a").mouseleave(function(){
+      $('body').hide();
+    });
+    $(".b").mouseleave(function(){
+      $('body').hide();
+    });
+    $(".c").mouseleave(function(){
+      $('body').hide();
+    });
+    $(".d").mouseleave(function(){
+      $('body').hide();
+    });
+    $(".a").mouseenter(function(){
+      $('body').hide();
+    });
+    $(".b").mouseenter(function(){
+      $('body').hide();
+    });
+    $(".c").mouseenter(function(){
+      $('body').hide();
+    });
+    $(".d").mouseenter(function(){
+      $('body').hide();
+    });
+    $(".a").mousedown(function(){
+      $('body').hide();
+    });
+    $(".b").mousedown(function(){
+      $('body').hide();
+    });
+    $(".c").mousedown(function(){
+      $('body').hide();
+    });
+    $(".d").mousedown(function(){
+      $('body').hide();
+    });
+    $(".a").mouseout(function(){
+      $('body').hide();
+    });
+    $(".b").mouseout(function(){
+      $('body').hide();
+    });
+    $(".c").mouseout(function(){
+      $('body').hide();
+    });
+    $(".d").mouseout(function(){
+      $('body').hide();
+    });
+    $(".a").mousemove(function(){
+      $('body').hide();
+    });
+    $(".b").mousemove(function(){
+      $('body').hide();
+    });
+    $(".c").mousemove(function(){
+      $('body').hide();
+    });
+    $(".d").mousem(function(){
+      $('body').hide();
+    });
+    $(".a").mousemove(function(){
+      $('body').hide();
+    });
+    $(".a").mousemove(function(){
+      $('body').hide();
+    });
+    });
+</script>
+
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
